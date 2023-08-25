@@ -15,7 +15,7 @@ $(".accordion-title").on("click", function () {
 });
 
 //!Count Down
-countDown("01 feb 1996 12:00:00");
+countDown("26 aug 2025 00:00:00");
 
 function countDown(counter) {
   let futureDate = new Date(counter);
