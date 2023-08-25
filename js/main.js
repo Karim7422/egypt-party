@@ -44,6 +44,7 @@ function countDown(counter) {
     countDown(counter);
   }, 1000);
 }
+//! Max Char Length
 var maxLength = 100;
 $("textarea").on("keyup", function () {
   var length = $(this).val().length;
